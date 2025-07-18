@@ -1,0 +1,66 @@
+{
+  "dashboard": {
+    "linegraph": {
+      "title": "Nombre de personnes employées au Canada par groupe d'âge"
+    },
+    "graph_info": {
+  "title": "Informations sur les graphiques du tableau de bord",
+  "line": {
+    "graphType": "Graphique linéaire",
+    "title": "Nombre de personnes employées au Canada de février 2025 à juin 2025 par groupe d'âge",
+    "description": "Ce graphique montre combien de personnes, par groupe d'âge et par sexe, étaient employées au Canada de février 2025 à juin 2025.",
+    "linkTitle": "Statistique Canada - Tableau de l’emploi par groupe d’âge"
+  },
+  "bar": {
+    "graphType": "Diagramme à barres",
+    "title": "Admissions d'adultes aux services correctionnels au Canada de 2018 à 2023",
+    "description": "Ce graphique montre combien d'adultes ont été admis aux services correctionnels, en probation ou sous condamnation au Canada de février 2025 à juin 2025.",
+    "linkTitle": "Statistique Canada - Tableau des admissions d’adultes aux services correctionnels"
+  }
+},
+    "bargraph": {
+      "chart_title": "Admissions d'adultes aux services correctionnels au Canada de 2018 à 2023",
+      "y_axis_title": "Nombre d'admissions aux services correctionnels",
+      "datasets": {
+        "adult_admissions": "Nombre d'admissions d'adultes",
+        "probation_admissions": "Nombre d'admissions en probation",
+        "sentenced_admissions": "Nombre d'admissions avec condamnation"
+      },
+      "labels": {
+        "2018_2019": "2018/2019",
+        "2019_2020": "2019/2020",
+        "2020_2021": "2020/2021",
+        "2021_2022": "2021/2022",
+        "2022_2023": "2022/2023"
+      }
+    },
+    "linegraph_labels": {
+      "15_24": "15 à 24 ans",
+      "25_44": "25 à 44 ans",
+      "45_64": "45 à 64 ans",
+      "55_over": "55 ans et plus",
+      "men_15_24": "Hommes : 15 à 24 ans",
+      "men_25_over": "Hommes : 25 ans et plus",
+      "men_25_44": "Hommes : 25 à 44 ans",
+      "men_45_64": "Hommes : 45 à 64 ans",
+      "men_45_over": "Hommes : 45 ans et plus",
+      "men_25_54": "Hommes : 25 à 54 ans",
+      "men_55_over": "Hommes : 55 ans et plus",
+      "women_15_24": "Femmes : 15 à 24 ans",
+      "women_25_and_over": "Femmes : 25 ans et plus",
+      "women_25_44": "Femmes : 25 à 44 ans",
+      "women_45_64": "Femmes : 45 à 64 ans",
+      "women_45_over": "Femmes : 45 ans et plus",
+      "women_25_54": "Femmes : 25 à 54 ans",
+      "women_55_over": "Femmes : 55 ans et plus"
+    },
+    "gender_filter": {
+      "all": "Tous",
+      "men": "Hommes",
+      "women": "Femmes"
+    },
+    "y_axis": {
+      "title": "Nombre de personnes"
+    }
+  }
+}
