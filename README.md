@@ -1,4 +1,4 @@
-# Assignment 4
+# Assignment 5
 * Utilizes i18n, Redux, and ChartJS.
 * Redux slide "dashboard" centralizes the language state. Upon switching the language, this state is updated. i18n is informed of a change and switches language accordingly.
 
