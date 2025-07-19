@@ -1,7 +1,8 @@
 {
   "dashboard": {
   "graph_info": {
-  "title": "Dashboard Graph Information",
+  "title": "Canadian Census Data of Employment and Correctional Services Admissions 🍁",
+  "description": "This section provides information on the graphs displayed in the dashboard, including employment statistics by age group.",
   "line": {
     "graphType": "1) Line Graph",
     "title": "Number of People in Canada Employed from February 2025 to June 2025 By Age Group",

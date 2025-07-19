@@ -4,7 +4,8 @@
       "title": "Nombre de personnes employées au Canada par groupe d'âge"
     },
     "graph_info": {
-  "title": "Informations sur les graphiques du tableau de bord",
+  "title": "Données du recensement canadien sur l'emploi et les admissions aux services correctionnels 🍁",
+  "description": "Cette section fournit des informations sur les graphiques affichés dans le tableau de bord, y compris les statistiques d'emploi par groupe d'âge.",
   "line": {
     "graphType": "1) Graphique linéaire",
     "title": "Nombre de personnes employées au Canada de février 2025 à juin 2025 par groupe d'âge",

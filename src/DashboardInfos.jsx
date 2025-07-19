@@ -115,6 +115,9 @@ const DashboardInfos = () => {
   return (
     <Container>
       <Title>{t("dashboard.graph_info.title")}</Title>
+      <SubTitle isItalic={true}>
+        {t("dashboard.graph_info.description")} 
+      </SubTitle>
       <InfoContainer>
         <GraphContainer tPrefix="dashboard.graph_info.line" />
         <GraphContainer tPrefix="dashboard.graph_info.bar" />
