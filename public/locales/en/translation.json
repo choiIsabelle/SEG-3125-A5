@@ -3,13 +3,13 @@
   "graph_info": {
   "title": "Dashboard Graph Information",
   "line": {
-    "graphType": "Line Graph",
+    "graphType": "1) Line Graph",
     "title": "Number of People in Canada Employed from February 2025 to June 2025 By Age Group",
     "description": "This graph shows how many people, by age group and gender, were employed in Canada from Ferbuary 2025 to June 2025.",
     "linkTitle": "Statistics Canada - Employment by Age Group Table"
   },
   "bar": {
-    "graphType": "Bar Graph",
+  "graphType": "2) Bar Graph",
     "title": "Adult admissions to correctional services in Canada from 2018 to 2023",
     "description": "This graph shows how many adults were admitted to correctional services, admitted to probation or sentence in Canada from February 2025 to June 2025.",
     "linkTitle": "Statistics Canada - Adult Admissions to Correctional Services Table"
@@ -19,7 +19,6 @@
       "title": "Number of employed people in Canada by age group from February 2025 to June 2025"
     },
     "bargraph": {
-      "header": "Total employed (15 years and over)",
       "chart_title": "Adult admissions to correctional services in Canada from 2018 to 2023",
       "y_axis_title": "Number of Admissions into Correctional Services",
       "datasets": {
@@ -33,9 +32,14 @@
         "2020_2021": "2020/2021",
         "2021_2022": "2021/2022",
         "2022_2023": "2022/2023"
+      },
+      "select_range": {
+        "2018_2023": "2018 to 2023",
+        "2020_2023": "2020 to 2023"
       }
     },
     "linegraph_labels": {
+      "total_employed": "Total Employed (15 years and over)",
       "15_24": "15 to 24 years",
       "25_44": "25 to 44 years",
       "45_64": "45 to 64 years",

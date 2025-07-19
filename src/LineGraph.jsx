@@ -78,7 +78,7 @@ const LineGraph = () => {
 
     const allDatasets = [
       {
-      label: t('dashboard.bargraph.header'),
+      label: t('dashboard.linegraph_labels.total_employed'),
       data: data1,
       backgroundColor: 'rgba(75, 192, 192, 0.4)',
       borderColor: 'rgba(75, 192, 192, 1)',
@@ -110,28 +110,28 @@ const LineGraph = () => {
       pointRadius: 4,
       pointHoverRadius: 6,
       },
-      {
-      label: t('dashboard.linegraph_labels.45_64'),
-      data: data4,
-      backgroundColor: 'rgba(19, 237, 117, 0.27)',
-      borderColor: 'rgba(30, 95, 96, 0.27)',
-      borderWidth: 2,
-      tension: 0.4,
-      fill: true,
-      pointRadius: 4,
-      pointHoverRadius: 6,
-      },
-      {
-      label: t('dashboard.linegraph_labels.55_over'),
-      data: data5,
-      backgroundColor: 'rgba(54, 169, 22, 0.85)',
-      borderColor: 'rgba(24, 91, 19, 0.74)',
-      borderWidth: 2,
-      tension: 0.4,
-      fill: true,
-      pointRadius: 4,
-      pointHoverRadius: 6,
-      },
+      // {
+      // label: t('dashboard.linegraph_labels.45_64'),
+      // data: data4,
+      // backgroundColor: 'rgba(19, 237, 117, 0.27)',
+      // borderColor: 'rgba(30, 95, 96, 0.27)',
+      // borderWidth: 2,
+      // tension: 0.4,
+      // fill: true,
+      // pointRadius: 4,
+      // pointHoverRadius: 6,
+      // },
+      // {
+      // label: t('dashboard.linegraph_labels.55_over'),
+      // data: data5,
+      // backgroundColor: 'rgba(54, 169, 22, 0.85)',
+      // borderColor: 'rgba(24, 91, 19, 0.74)',
+      // borderWidth: 2,
+      // tension: 0.4,
+      // fill: true,
+      // pointRadius: 4,
+      // pointHoverRadius: 6,
+      // },
       {
       label: t('dashboard.linegraph_labels.men_15_24'),
       data: data6,
@@ -146,8 +146,8 @@ const LineGraph = () => {
       {
       label: t('dashboard.linegraph_labels.men_25_over'),
       data: m1_data,
-      backgroundColor: 'rgba(77, 236, 149, 0.87)',
-      borderColor: 'rgba(53, 206, 81, 0.74)',
+      backgroundColor: 'rgba(255, 9, 202, 0.87)',
+      borderColor: 'rgba(151, 29, 139, 0.74)',
       borderWidth: 2,
       tension: 0.4,
       fill: true,
@@ -198,50 +198,50 @@ const LineGraph = () => {
       pointRadius: 4,
       pointHoverRadius: 6,
       },
-      {
-      label: t('dashboard.linegraph_labels.women_45_64'),
-      data: w4,
-      backgroundColor: 'rgba(75, 192, 192, 0.4)',
-      borderColor: 'rgba(75, 192, 192, 1)',
-      borderWidth: 2,
-      tension: 0.4,
-      fill: true,
-      pointRadius: 4,
-      pointHoverRadius: 6,
-      },
-      {
-      label: t('dashboard.linegraph_labels.women_45_over'),
-      data: w5,
-      backgroundColor: 'rgba(54, 162, 235, 0.4)',
-      borderColor: 'rgba(54, 162, 235, 1)',
-      borderWidth: 2,
-      tension: 0.4,
-      fill: true,
-      pointRadius: 4,
-      pointHoverRadius: 6,
-      },
-      {
-      label: t('dashboard.linegraph_labels.women_25_54'),
-      data: w6,
-      backgroundColor: 'rgba(255, 99, 132, 0.4)',
-      borderColor: 'rgba(255, 99, 132, 1)',
-      borderWidth: 2,
-      tension: 0.4,
-      fill: true,
-      pointRadius: 4,
-      pointHoverRadius: 6,
-      },
-      {
-      label:t('dashboard.linegraph_labels.women_55_over'),
-      data: w7,
-      backgroundColor: 'rgba(19, 237, 117, 0.27)',
-      borderColor: 'rgba(30, 95, 96, 0.27)',
-      borderWidth: 2,
-      tension: 0.4,
-      fill: true,
-      pointRadius: 4,
-      pointHoverRadius: 6,
-      },
+      // {
+      // label: t('dashboard.linegraph_labels.women_45_64'),
+      // data: w4,
+      // backgroundColor: 'rgb(6, 83, 83)',
+      // borderColor: 'rgb(5, 45, 45)',
+      // borderWidth: 2,
+      // tension: 0.4,
+      // fill: true,
+      // pointRadius: 4,
+      // pointHoverRadius: 6,
+      // },
+      // {
+      // label: t('dashboard.linegraph_labels.women_45_over'),
+      // data: w5,
+      // backgroundColor: 'rgba(54, 162, 235, 0.4)',
+      // borderColor: 'rgba(54, 162, 235, 1)',
+      // borderWidth: 2,
+      // tension: 0.4,
+      // fill: true,
+      // pointRadius: 4,
+      // pointHoverRadius: 6,
+      // },
+      // {
+      // label: t('dashboard.linegraph_labels.women_25_54'),
+      // data: w6,
+      // backgroundColor: 'rgb(144, 15, 43)',
+      // borderColor: 'rgb(77, 11, 108)',
+      // borderWidth: 2,
+      // tension: 0.4,
+      // fill: true,
+      // pointRadius: 4,
+      // pointHoverRadius: 6,
+      // },
+      // {
+      // label:t('dashboard.linegraph_labels.women_55_over'),
+      // data: w7,
+      // backgroundColor: 'rgb(190, 248, 0)',
+      // borderColor: 'rgb(12, 212, 56)',
+      // borderWidth: 2,
+      // tension: 0.4,
+      // fill: true,
+      // pointRadius: 4,
+      // pointHoverRadius: 6,
+      // },
     ];
     
 
@@ -265,11 +265,19 @@ const LineGraph = () => {
       <select
         value={selectedGender}
         onChange={(e) => setSelectedGender(e.target.value)}
+        style={{
+          marginBottom: '20px',
+          padding: '10px',
+          fontSize: '16px',
+          borderRadius: '5px',
+          border: '1px solid #ccc',
+          outline: 'none',
+          cursor: 'pointer',
+        }}
       >
         <option value="all">{t('dashboard.gender_filter.all')}</option>
         <option value="men">{t('dashboard.gender_filter.men')}</option>
         <option value="women">{t('dashboard.gender_filter.women')}</option>
-
       </select>
       <Line
         data={chartData}
@@ -279,10 +287,28 @@ const LineGraph = () => {
             title: {
               display: true,
               text: t('dashboard.linegraph.title'),
+              font: {
+                size: 18,
+                weight: 'bold',
+              },
+              padding: {
+                top: 10,
+                bottom: 20,
+              },
             },
             legend: {
               display: true,
               position: 'bottom',
+              labels: {
+                usePointStyle: true,
+                boxWidth: 10,
+                boxHeight: 10,
+                padding: 10,
+                font: {
+                  size: 12,
+                },
+              },
+              maxHeight: 100,
             },
           },
           scales: {
@@ -291,9 +317,29 @@ const LineGraph = () => {
               title: {
                 display: true,
                 text: t('dashboard.y_axis.title'),
+                font: {
+                  size: 14,
+                  weight: 'bold',
+                },
               },
               ticks: {
                 callback: (value) => `${value.toLocaleString()}K`,
+                font: {
+                  size: 12,
+                },
+              },
+              grid: {
+                color: 'hsla(0, 0.00%, 78.40%, 0.20)',
+              },
+            },
+            x: {
+              grid: {
+                color: 'rgba(200, 200, 200, 0.2)',
+              },
+              ticks: {
+                font: {
+                  size: 12,
+                },
               },
             },
           },

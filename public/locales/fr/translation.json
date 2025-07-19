@@ -6,13 +6,13 @@
     "graph_info": {
   "title": "Informations sur les graphiques du tableau de bord",
   "line": {
-    "graphType": "Graphique linéaire",
+    "graphType": "1) Graphique linéaire",
     "title": "Nombre de personnes employées au Canada de février 2025 à juin 2025 par groupe d'âge",
     "description": "Ce graphique montre combien de personnes, par groupe d'âge et par sexe, étaient employées au Canada de février 2025 à juin 2025.",
     "linkTitle": "Statistique Canada - Tableau de l’emploi par groupe d’âge"
   },
   "bar": {
-    "graphType": "Diagramme à barres",
+    "graphType": "2) Diagramme à barres",
     "title": "Admissions d'adultes aux services correctionnels au Canada de 2018 à 2023",
     "description": "Ce graphique montre combien d'adultes ont été admis aux services correctionnels, en probation ou sous condamnation au Canada de février 2025 à juin 2025.",
     "linkTitle": "Statistique Canada - Tableau des admissions d’adultes aux services correctionnels"
@@ -32,9 +32,14 @@
         "2020_2021": "2020/2021",
         "2021_2022": "2021/2022",
         "2022_2023": "2022/2023"
+      },
+      "select_range": {
+        "2018_2023": "2018 à 2023",
+        "2020_2023": "2020 à 2023"
       }
     },
     "linegraph_labels": {
+      "total_employed": "Total des personnes occupées (15 ans et plus)",
       "15_24": "15 à 24 ans",
       "25_44": "25 à 44 ans",
       "45_64": "45 à 64 ans",

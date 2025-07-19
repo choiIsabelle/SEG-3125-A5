@@ -5,7 +5,7 @@ import DataIcon from './Icons/DataIcon';
 import LangToggle from './LangToggle';
 
 const NavbarContainer = styled.div`
-    background-color: white;
+    background-color:rgb(255, 255, 255);
     color: black;
     padding: 10px 20px;
     display: flex;
